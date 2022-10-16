@@ -32,7 +32,7 @@ const HorizontalCourseCard = ({ course, containerStyle }) => {
         >
             <View
                style={{
-                    position: 'absloute',
+                    position: 'absolute',
                     top: 10,
                     // right: 10,
                     width: 30,
