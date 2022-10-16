@@ -2,7 +2,9 @@ const bg = require("../assets/images/bg.png")
 const bg_dark = require("../assets/images/bg_dark.png")
 const doc = require("../assets/images/doc.png")
 const bg_1 = require("../assets/images/bg_1.png")
+const bg_4 = require("../assets/images/bg_4.png")
 const work = require("../assets/images/work.png")
+const laptop = require("../assets/images/laptop.png")
 const featured_bg_image = require("../assets/images/featured_bg_image.png")
 const mobile_image = require("../assets/images/mobile_image.png")
 const pdf = require("../assets/images/pdf.png")
@@ -16,13 +18,16 @@ const thumbnail_1 = require("../assets/images/thumbnail_1.png")
 const thumbnail_2 = require("../assets/images/thumbnail_2.png")
 const thumbnail_3 = require("../assets/images/thumbnail_3.png")
 const thumbnail_4 = require("../assets/images/thumbnail_4.png")
+const thumbnail_5 = require("../assets/images/thumbnail_5.png")
 
 export default {
     bg,
     bg_dark,
     doc,
     bg_1,
+    bg_4,
     work,
+    laptop,
 
     featured_bg_image,
     mobile_image,
@@ -39,4 +44,5 @@ export default {
     thumbnail_2,
     thumbnail_3,
     thumbnail_4,
+    thumbnail_5,
 }

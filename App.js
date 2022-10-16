@@ -3,7 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import {
-    MainLayout
+    MainLayout,
+    LoginScreen,
+    SignUpScreen
 } from "./screens";
 
 const Stack = createNativeStackNavigator();
@@ -17,6 +19,8 @@ const App = () => {
                 }}
                 initialRouteName={'Dashboard'}
             >
+                <Stack.Screen name="Login" component={LoginScreen} />
+                <Stack.Screen name="SignUp" component={SignUpScreen} />
                 <Stack.Screen
                     name="Dashboard"
                     component={MainLayout}

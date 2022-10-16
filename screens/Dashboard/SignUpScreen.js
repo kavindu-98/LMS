@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
-import {LoginComponent, SignupComponent} from '../components';
+// import {LoginComponent, SignupComponent} from '../components';
 import { View, Text, TextInput, StyleSheet,KeyboardAvoidingView, StatusBar,TouchableWithoutFeedback,Keyboard } from 'react-native';
 import { Button} from 'react-native-elements';
-import { COLORS, FONTS, SIZES, icons } from '../constants';
-import { TextIconButton} from "../components"
+import { COLORS, FONTS, SIZES, icons } from '../../constants';
+import { TextIconButton} from "../../components"
 import * as Animatable from 'react-native-animatable';
-import Feather from 'react-native-vector-icons/Feather'
+// import Feather from 'react-native-vector-icons/Feather'
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -62,7 +62,7 @@ const SignUpScreen = ({navigation}) => {
           <Animatable.Image
                 animation="bounceIn"
                 // duration="1500"
-                source={require('../assets/images/LOGO.png')}
+                source={require('../../assets/images/LOGO.png')}
                 style={styles.logo}
                 resizeMode="contain"
               />

@@ -49,7 +49,7 @@ const courses_list_1 = [
 const courses_list_2 = [
     {
         id: 0,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "INTE 31262 - Advanced Web Application Development(20/21)",
         duration: "2h 30m",
         instructor: "James Morris",
         ratings: 4.9,
@@ -59,7 +59,7 @@ const courses_list_2 = [
     },
     {
         id: 1,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "MGTE 31212 - Project Management (20/21)",
         duration: "2h 30m",
         instructor: "James Morris",
         ratings: 4.9,
@@ -69,7 +69,7 @@ const courses_list_2 = [
     },
     {
         id: 2,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "INTE 31342 - Big Data Analytics(20/21)",
         duration: "2h 30m",
         instructor: "James Morris",
         ratings: 4.9,
@@ -79,7 +79,7 @@ const courses_list_2 = [
     },
     {
         id: 3,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "INTE 34253 - Mobile Application Development(20/21)",
         duration: "2h 30m",
         instructor: "James Morris",
         ratings: 4.9,
@@ -89,7 +89,7 @@ const courses_list_2 = [
     },
     {
         id: 4,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "MGTE 31222 - Research Methods (20/21)",
         duration: "2h 30m",
         instructor: "James Morris",
         ratings: 4.9,
@@ -99,13 +99,13 @@ const courses_list_2 = [
     },
     {
         id: 5,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "INTE 31253 - Software Engineering Concepts(20/21)",
         duration: "2h 30m",
         instructor: "James Morris",
         ratings: 4.9,
         price: 75,
         is_favourite: false,
-        thumbnail: require("../assets/images/thumbnail_4.png")
+        thumbnail: require("../assets/images/thumbnail_5.png")
     }
 ]
 

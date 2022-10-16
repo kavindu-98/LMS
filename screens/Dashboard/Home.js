@@ -119,7 +119,7 @@ const Home = () => {
     function renderStartLearning() {
         return (
             <ImageBackground
-                source={images.featured_bg_image}
+                source={images.bg_4}
                 style={{
                      alignItems: 'flex-start',
                      marginTop: SIZES.padding,
@@ -139,7 +139,7 @@ const Home = () => {
                                 ...FONTS.body2
                             }}
                             >
-                            How To
+                            INTE 31273 
                         </Text>
                         <Text 
                         
@@ -147,7 +147,7 @@ const Home = () => {
                             color: COLORS.white,
                             ...FONTS.body2
                         }}>
-                            Make your brand more visible with our checklist
+                            Integrative Programming and Technologies(20/21)
                         </Text>
                         <Text 
                         
@@ -156,16 +156,17 @@ const Home = () => {
                             color: COLORS.white,
                             ...FONTS.body4
                         }}>
-                            By Peter Harris
+                            By Mr. Asanka Sanjaya Herath
                         </Text>
                      </View>
                      {/* Image */}
                       <Image
-                        source={images.start_learning}
+                        source={images.laptop}
                         style={{
-                            width: "100%",
+                            width: "89%",
                             height: 120,
-                            marginTop: SIZES.padding
+                            marginTop: SIZES.padding,
+                            marginBottom: SIZES.radius
                         }}
                       />
 
@@ -284,6 +285,14 @@ const Home = () => {
                    >
     
                    </HorizontalCourseCard>
+            )}
+            ItemSeparatorComponent={() => (
+                <LineDivider
+                        lineStyle={{
+                            backgroundColor: COLORS.gray20
+                        }}
+                
+                />
             )}
     
             />

@@ -14,8 +14,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Button, Icon } from "react-native-elements";
-import { COLORS, FONTS, SIZES, icons } from "../constants";
-import { TextIconButton, PasswordIcon } from "../components";
+import { COLORS, FONTS, SIZES, icons } from "../../constants";
+import { TextIconButton, PasswordIcon } from "../../components"
 import * as Animatable from "react-native-animatable";
 
 const Tab = createMaterialTopTabNavigator();
@@ -61,7 +61,7 @@ const LoginScreen = ({ navigation }) => {
           <Animatable.Image
             animation="bounceIn"
             // duration="1500"
-            source={require("../assets/images/LOGO.png")}
+            source={require("../../assets/images/LOGO.png")}
             style={styles.logo}
             resizeMode="contain"
           />

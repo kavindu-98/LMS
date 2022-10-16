@@ -63,6 +63,50 @@ const HorizontalCourseCard = ({ course, containerStyle }) => {
 
         </ImageBackground>
 
+        {/* Details */}
+        <View 
+            style={{
+                flex: 1,
+                marginLeft: SIZES.base
+            
+            }}
+        >
+            {/* Title */}
+
+            
+            <Text
+                style={{
+                    ...FONTS.h3,
+                    fontSize: 18
+                }}
+            >
+            {course.title}
+            </Text>
+            {/* Instructor & duration */}
+
+            <View 
+                style={{
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    marginTop: SIZES.base
+                }}
+            >
+                    <Text
+                        style={{
+                            ...FONTS.body4,
+                            
+                        }}
+                    >
+                    By {course.instructor}
+                </Text>
+                
+
+            </View>
+
+        </View>
+
+
+
 
 
     </TouchableOpacity>

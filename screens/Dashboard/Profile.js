@@ -1,12 +1,12 @@
 import { StyleSheet, Text,Image, View, TouchableOpacity, ScrollView, SafeAreaView} from 'react-native';
 import React, { useEffect, useState } from 'react';
-import { COLORS, SIZES, icons } from '../constants';
+import { COLORS, SIZES, icons, images } from '../../constants';
 import { Header, Icon, ListItem, SearchBar } from "react-native-elements";
 import { useNavigation } from "@react-navigation/native";
 
 import * as Animatable from 'react-native-animatable';
 import { TextInput } from 'react-native-gesture-handler';
-import TextIconButton from '../components/TextIconButton';
+// import TextIconButton from '../../components/TextIconButton';
 import { ionicons, MaterialIcons  } from 'react-native-vector-icons';
 
 
@@ -76,7 +76,7 @@ const ProfileScreen = () => {
             </View>
         <View style={{ alignSelf: "center", marginTop: 20}}>
           <View style={styles.profileimage}>
-              <Image source={require('../assets/images/profile.jpg')} style={styles.profileimage} resizeMode="center"
+              <Image source={require('../../assets/images/student_1.png')} style={styles.profileimage} resizeMode="center"
               />
           </View>
 
